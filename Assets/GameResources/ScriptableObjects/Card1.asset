@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 55e49e79af524c84f9cfc931d906f72d, type: 3}
   m_Name: Card1
-  m_EditorClassIdentifier: Assembly-CSharp::Card
+  m_EditorClassIdentifier: 
   model: {fileID: 0}
   header: Card 1
-  description: Bla1
+  description: Bla 1
   id: Card1

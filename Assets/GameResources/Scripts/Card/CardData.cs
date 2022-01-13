@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Card", menuName = "Card")]
-public class Card : ScriptableObject
+public class CardData : ScriptableObject
 {
     [SerializeField]
     private GameObject model = default;
@@ -19,9 +19,9 @@ public class Card : ScriptableObject
     private string id = "";
     public string Id => id;
 
-    public CardData GetDataStruct()
+    public CardDataStruct GetDataStruct()
     {
-        CardData data = new CardData();
+        CardDataStruct data = new CardDataStruct();
 
         data.Model = model;
         data.Header = header;
@@ -30,12 +30,4 @@ public class Card : ScriptableObject
 
         return data;
     }
-}
-
-public struct CardData
-{
-    public GameObject Model;
-    public string Header;
-    public string Description;
-    public string Id;
 }

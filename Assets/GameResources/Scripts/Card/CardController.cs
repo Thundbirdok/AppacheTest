@@ -17,8 +17,8 @@ public class CardController : MonoBehaviour
     [SerializeField]
     private GameObject lockObject = default;
 
-    private Card data = default;
-    public Card Data
+    private CardData data = default;
+    public CardData Data
     {
         get
         {
